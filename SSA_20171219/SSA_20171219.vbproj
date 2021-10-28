@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="Current">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0CC7895D-0CBF-49BC-BD7D-B4C53299D0F1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SSA_20171219.My.MyApplication</StartupObject>
+    <RootNamespace>SSA_20171219</RootNamespace>
+    <AssemblyName>SSA_20171219</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SSA_20171219.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SSA_20171219.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.Office.Interop.Excel" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dialog_Datum.Designer.vb">
+      <DependentUpon>Dialog_Datum.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog_Datum.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog_DB_Antragsteller.Designer.vb">
+      <DependentUpon>Dialog_DB_Antragsteller.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog_DB_Antragsteller.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Aussteller.Designer.vb">
+      <DependentUpon>Form_Aussteller.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Aussteller.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Ausweis.Designer.vb">
+      <DependentUpon>Form_Ausweis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Ausweis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Begruessung.Designer.vb">
+      <DependentUpon>Form_Begruessung.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Begruessung.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Grundriss.Designer.vb">
+      <DependentUpon>Form_Grundriss.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Grundriss.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Help.Designer.vb">
+      <DependentUpon>Form_Help.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Help.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Image_drehen.Designer.vb">
+      <DependentUpon>Form_Image_drehen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Image_drehen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Main.Designer.vb">
+      <DependentUpon>Form_Main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Projekt_einrichten.Designer.vb">
+      <DependentUpon>Form_Projekt_einrichten.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Projekt_einrichten.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Projekt_loeschen.Designer.vb">
+      <DependentUpon>Form_Projekt_loeschen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Projekt_loeschen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Tab.Designer.vb">
+      <DependentUpon>Form_Tab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Tab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Webbrowser.Designer.vb">
+      <DependentUpon>Form_Webbrowser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Webbrowser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module_Auswertung.vb" />
+    <Compile Include="Module_General.vb" />
+    <Compile Include="Module_Hilfsfunktionen.vb" />
+    <Compile Include="Module_IO.vb" />
+    <Compile Include="Module_Variablen.vb" />
+    <Compile Include="Module_xml.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Dialog_Datum.resx">
+      <DependentUpon>Dialog_Datum.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog_DB_Antragsteller.resx">
+      <DependentUpon>Dialog_DB_Antragsteller.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Aussteller.resx">
+      <DependentUpon>Form_Aussteller.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Ausweis.resx">
+      <DependentUpon>Form_Ausweis.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Begruessung.resx">
+      <DependentUpon>Form_Begruessung.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Grundriss.resx">
+      <DependentUpon>Form_Grundriss.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Help.resx">
+      <DependentUpon>Form_Help.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Image_drehen.resx">
+      <DependentUpon>Form_Image_drehen.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Main.resx">
+      <DependentUpon>Form_Main.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Projekt_einrichten.resx">
+      <DependentUpon>Form_Projekt_einrichten.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Projekt_loeschen.resx">
+      <DependentUpon>Form_Projekt_loeschen.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Tab.resx">
+      <DependentUpon>Form_Tab.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Webbrowser.resx">
+      <DependentUpon>Form_Webbrowser.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\al.png" />
+    <None Include="Resources\Deckblatt.png" />
+    <None Include="Resources\ew.png" />
+    <None Include="Resources\FullVers_2.png" />
+    <None Include="Resources\FullVers_KHW_Untersuchung.png" />
+    <None Include="Resources\gc.png" />
+    <None Include="Resources\ls_ab.png" />
+    <None Include="Resources\ls_d.png" />
+    <None Include="Resources\ls_w.png" />
+    <None Include="Resources\nhz.png" />
+    <None Include="Resources\nutzerkoerper.png" />
+    <None Include="Resources\raeume.png" />
+    <None Include="Resources\SSA_einfach_1.png" />
+    <None Include="Resources\ssa_help_1.gif" />
+    <None Include="Resources\ssa_help_14.gif" />
+    <None Include="Resources\ssa_help_15.gif" />
+    <None Include="Resources\ssa_help_2.gif" />
+    <None Include="Resources\ssa_help_20.gif" />
+    <None Include="Resources\ssa_help_21.gif" />
+    <None Include="Resources\ssa_help_23.gif" />
+    <None Include="Resources\ssa_help_3.gif" />
+    <None Include="Resources\ssa_help_36.gif" />
+    <None Include="Resources\ssa_help_37.gif" />
+    <None Include="Resources\ssa_help_38.gif" />
+    <None Include="Resources\ssa_help_39.gif" />
+    <None Include="Resources\ssa_help_4.gif" />
+    <None Include="Resources\ssa_help_42.gif" />
+    <None Include="Resources\ssa_help_44.gif" />
+    <None Include="Resources\ssa_help_46.gif" />
+    <None Include="Resources\ssa_help_47.gif" />
+    <None Include="Resources\ssa_help_58.gif" />
+    <None Include="Resources\ssa_help_59.gif" />
+    <None Include="Resources\ssa_help_abwKenn_22.png" />
+    <None Include="Resources\ssa_help_allgAnw_35.png" />
+    <None Include="Resources\ssa_help_BeschKlA+_49.png" />
+    <None Include="Resources\ssa_help_BeschKlA_50.png" />
+    <None Include="Resources\ssa_help_BeschKlB_51.png" />
+    <None Include="Resources\ssa_help_BeschKlC_52.png" />
+    <None Include="Resources\ssa_help_BeschKlD_53.png" />
+    <None Include="Resources\ssa_help_BeschKlE_54.png" />
+    <None Include="Resources\ssa_help_BeschKlF_55.png" />
+    <None Include="Resources\ssa_help_Empf_48.png" />
+    <None Include="Resources\ssa_help_erlEW_24.png" />
+    <None Include="Resources\ssa_help_Estrich_43.png" />
+    <None Include="Resources\ssa_help_EW_31.png" />
+    <None Include="Resources\ssa_help_EW1_57.png" />
+    <None Include="Resources\ssa_help_EW2_56.png" />
+    <None Include="Resources\ssa_help_EW3_56_1.png" />
+    <None Include="Resources\ssa_help_fremd_30.png" />
+    <None Include="Resources\ssa_help_HinweiseKat_45.png" />
+    <None Include="Resources\ssa_help_KlasseC_5.png" />
+    <None Include="Resources\ssa_help_KlasseD_6.png" />
+    <None Include="Resources\ssa_help_KlasseE_7.png" />
+    <None Include="Resources\ssa_help_KlasseF_8.png" />
+    <None Include="Resources\ssa_help_KMV_41.png" />
+    <None Include="Resources\ssa_help_LAnlagen_17.png" />
+    <None Include="Resources\ssa_help_LS_25.png" />
+    <None Include="Resources\ssa_help_LSAußen_29.png" />
+    <None Include="Resources\ssa_help_LWasser_16.png" />
+    <None Include="Resources\ssa_help_Nutzer_18.png" />
+    <None Include="Resources\ssa_help_NutzerKoerper_28.png" />
+    <None Include="Resources\ssa_help_NutzerKoerper_Prognose_19.png" />
+    <None Include="Resources\ssa_help_NutzerKoerperAnf_40.png" />
+    <None Include="Resources\ssa_help_SA_33.png" />
+    <None Include="Resources\ssa_help_TS_26.png" />
+    <None Include="Resources\ssa_help_ungSituation_34.png" />
+    <None Include="Resources\ssa_help_Wahrnehmbarkeit_32.png" />
+    <None Include="Resources\ssa_help_Wasser_27.png" />
+    <None Include="Resources\SSA_Hinweise.png" />
+    <None Include="Resources\ssa_pfeil.bmp" />
+    <None Include="Resources\ts_bllt.png" />
+    <None Include="Resources\ts_d.png" />
+    <None Include="Resources\ts_tph.png" />
+    <None Include="Resources\tueren.png" />
+    <None Include="Resources\wasser.png" />
+    <None Include="Resources\SSA_detailiert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="al" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\al.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Deckblatt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deckblatt.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ew.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FullVers_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FullVers_2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FullVers_KHW_Untersuchung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FullVers_KHW_Untersuchung.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ls_ab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ls_ab.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ls_d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ls_d.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ls_w" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ls_w.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nhz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nhz.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nutzerkoerper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nutzerkoerper.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="raeume" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\raeume.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_detailliert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSA_detailiert.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SSA_einfach" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSA_einfach_1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_1.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_14.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_15.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_2.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_20.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_21.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_23.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_3.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_36.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_37.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_38.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_39.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_4.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_42.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_44.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_46.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_47.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_58.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_59.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_abwKenn_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_abwKenn_22.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_allgAnw_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_allgAnw_35.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_BeschKlA__49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_BeschKlA+_49.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_BeschKlA_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_BeschKlA_50.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_BeschKlB_51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_BeschKlB_51.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_BeschKlC_52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_BeschKlC_52.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_BeschKlD_53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_BeschKlD_53.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_BeschKlE_54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_BeschKlE_54.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_BeschKlF_55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_BeschKlF_55.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_Empf_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_Empf_48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_erlEW_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_erlEW_24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_Estrich_43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_Estrich_43.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_EW_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_EW_31.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_EW1_57" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_EW1_57.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_EW2_56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_EW2_56.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_EW3_56_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_EW3_56_1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_fremd_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_fremd_30.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_HinweiseKat_45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_HinweiseKat_45.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_KlasseC_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_KlasseC_5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_KlasseD_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_KlasseD_6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_KlasseE_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_KlasseE_7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_KlasseF_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_KlasseF_8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_KMV_41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_KMV_41.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_LAnlagen_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_LAnlagen_17.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_LS_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_LS_25.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_LSAußen_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_LSAußen_29.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_LWasser_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_LWasser_16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_Nutzer_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_Nutzer_18.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_NutzerKoerper_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_NutzerKoerper_28.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_NutzerKoerper_Prognose_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_NutzerKoerper_Prognose_19.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_NutzerKoerperAnf_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_NutzerKoerperAnf_40.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_SA_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_SA_33.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_TS_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_TS_26.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_ungSituation_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_ungSituation_34.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_Wahrnehmbarkeit_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_Wahrnehmbarkeit_32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_help_Wasser_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_help_Wasser_27.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SSA_Hinweise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSA_Hinweise.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssa_pfeil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssa_pfeil.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ts_bllt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ts_bllt.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ts_d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ts_d.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ts_tph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ts_tph.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tueren" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tueren.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wasser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wasser.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

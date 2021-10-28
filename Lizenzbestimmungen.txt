@@ -1,0 +1,23 @@
+
+Nutzungsrecht des Anwenders
+Diese Software- Nutzungslizenz bezieht sich nur auf einen Standort; für die Installation bzw. Nutzung dieser Software an mehreren Standorten  ist der Erwerb zusätzlicher Lizenzen erforderlich.
+Die Software muss in der von „Stratenschulte Messtechnik“ freigegebenen Betriebssystemumgebung und unter den empfohlenen Hardwarevoraussetzungen eingesetzt werden.
+
+
+Gewährleistung
+Die Gewährleistungsfrist beträgt ein Jahr.
+Offensichtliche Mängel hat der Anwender unverzüglich, spätestens jedoch zwei Wochen nach Lieferung anzuzeigen. Sonstige Mängel sind direkt nach Entdeckung anzuzeigen.
+Der Anwender ist für die regelmäßige Sicherung und Wartung seiner individuellen Daten verantwortlich.
+Stratenschulte Messtechnik  ist nach eigener Wahl berechtigt, Mängel durch Beseitigung oder durch Lieferung mangelfreier Ware zu beheben. Stratenschulte Messtechnik ist berechtigt, Mängel durch Überlassung eines neuen Releases zu beheben.
+Der Anwender hat Stratenschulte Messtechnik bei der Lokalisierung eines Mangels in zumutbarer Weise, beispielsweise durch zur Verfügung stellen von Papierausdrucken oder Systembeschreibungen zu unterstützen.
+
+
+Haftung Stratenschulte Messtechnik
+Die Haftung für unmittelbare Schäden, mittelbare Schäden, Folgeschäden und Drittschäden ist, soweit gesetzlich zulässig, ausgeschlossen. Die Haftung bei grober Fahrlässigkeit und Vorsatz bleibt hiervon unberührt. In jedem Fall ist die Haftung beschränkt auf den Kaufpreis.
+Achtung:
+Die Software ist nicht fehlertolerant und wurde nicht für eine Verwendung in gefahrenträchtiger Umgebung entwickelt oder hergestellt, in der störungsfreier Betrieb erforderlich ist, wie z.B. in nukleartechnischen Einrichtungen, Flugzeugnavigations- oder -kommunikationssystemen, in der Flugsicherung, in Maschinen zur direkten Lebenserhaltung oder in Waffensystemen, in denen ein Ausfall der Technologie direkt zu Todesfällen, Personenschäden oder schwerwiegenden Schäden an Sachen oder Umwelt führen würde.
+
+
+Schlussbestimmungen
+Der Erfüllungsort für Zahlungen und Lieferungen sowie der Gerichtsstand ist der Sitz von Stratenschulte Messtechnik.
+
